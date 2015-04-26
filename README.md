@@ -17,6 +17,13 @@ A hybrid APP and its back-end, developed with javascript.
 
 [Read more ...](corpbase/README.md)
 
+# Other Tools
+
+* Editor: [Brackets](http://brackets.io/)
+* Code repo: [Github](https://github.com)
+* Publish: [npm](https://www.npmjs.com/)
+* Collaboration: [Trello](https://trello.com/)
+
 # Credits
 
 Created by Raymond Xie, all rights reserved.
