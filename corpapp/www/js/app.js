@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['lbServices', 'ionic', 'starter.controllers', 'starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -19,6 +19,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       StatusBar.styleLightContent();
     }
   });
+})
+
+.config(function(LoopBackResourceProvider) {
+    // Use a custom auth header instead of the default 'Authorization'
+    //LoopBackResourceProvider.setAuthHeader('X-Access-Token');
+    // Change the URL where to access the LoopBack REST API server
+    //LoopBackResourceProvider.setUrlBase('http://localhost:3000/api');
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
