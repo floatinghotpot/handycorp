@@ -3,17 +3,17 @@ A hybrid APP and its back-end, developed with javascript.
 
 # Front-end Hybrid App
 
-* Ionic
-* AngularJs
-* Cordova
+* [Ionic](http://ionicframework.com)
+* [AngularJs](https://angularjs.org/)
+* [Cordova](https://cordova.apache.org/)
 
 [Read more ...](corpapp/README.md)
 
 # Back-end RESTful
 
 * [LoopBack](http://loopback.io)
-* Node.js
-* MongoDB
+* [Node.js](https://nodejs.org/)
+* [MongoDB](https://www.mongodb.org/)
 
 [Read more ...](corpbase/README.md)
 
