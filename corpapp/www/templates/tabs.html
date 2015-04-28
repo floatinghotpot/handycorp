@@ -5,13 +5,23 @@ navigation history that also transitions its views in and out.
 -->
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
-  <!-- Dashboard Tab -->
-  <ion-tab title="Status" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
+  <!-- Home Tab -->
+  <ion-tab title="Home" icon-off="ion-android-apps" icon-on="ion-android-apps" href="#/tab/dash">
     <ion-nav-view name="tab-dash"></ion-nav-view>
   </ion-tab>
 
+  <!-- Todo Tab -->
+  <ion-tab title="Todo" icon-off="ion-android-checkbox-outline" icon-on="ion-android-checkbox-outline" href="#/tab/todos">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
   <!-- Chats Tab -->
-  <ion-tab title="Chats" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
+  <ion-tab title="Chats" icon-off="ion-chatboxes" icon-on="ion-chatboxes" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Contacts Tab -->
+  <ion-tab title="Contacts" icon-off="ion-android-people" icon-on="ion-android-people" href="#/tab/contacts">
     <ion-nav-view name="tab-chats"></ion-nav-view>
   </ion-tab>
 
